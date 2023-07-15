@@ -1,0 +1,35 @@
+CRITICAL - 2023-07-10 10:28:31 --> Array to string conversion
+in APPPATH\Controllers\UploadVideo.php on line 16.
+ 1 APPPATH\Controllers\UploadVideo.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Controllers\\UploadVideo.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UploadVideo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadVideo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 10:30:48 --> Array to string conversion
+in APPPATH\Controllers\UploadVideo.php on line 16.
+ 1 APPPATH\Controllers\UploadVideo.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Controllers\\UploadVideo.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UploadVideo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadVideo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 10:34:41 --> Undefined array key "video-upload"
+in APPPATH\Controllers\UploadVideo.php on line 11.
+ 1 APPPATH\Controllers\UploadVideo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video-upload"', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Controllers\\UploadVideo.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UploadVideo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadVideo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 10:41:55 --> Undefined array key "video-upload"
+in APPPATH\Controllers\UploadVideo.php on line 11.
+ 1 APPPATH\Controllers\UploadVideo.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video-upload"', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Controllers\\UploadVideo.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UploadVideo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadVideo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-10 10:59:57 --> Undefined array key "video-uplaod"
+in APPPATH\Controllers\UploadVideo.php on line 30.
+ 1 APPPATH\Controllers\UploadVideo.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video-uplaod"', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Controllers\\UploadVideo.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UploadVideo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadVideo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

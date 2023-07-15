@@ -1,0 +1,86 @@
+CRITICAL - 2023-07-12 11:21:31 --> syntax error, unexpected end of file, expecting variable or "${" or "{$"
+in APPPATH\Views\Common\page-header.php on line 16.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Common/page-header', [], true)
+ 3 APPPATH\Controllers\Pages\Search.php(12): view('Common/page-header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages\Search->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\Search))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 19:51:51 --> Undefined variable $members
+in APPPATH\Views\Common\search.php on line 40.
+ 1 APPPATH\Views\Common\search.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $members', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Common/search', [], true)
+ 5 APPPATH\Controllers\Pages\FilterVideo.php(16): view('Common/search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages\FilterVideo->loksabha()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\FilterVideo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 19:51:57 --> Undefined variable $members
+in APPPATH\Views\Common\search.php on line 40.
+ 1 APPPATH\Views\Common\search.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $members', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Common/search', [], true)
+ 5 APPPATH\Controllers\Pages\FilterVideo.php(27): view('Common/search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages\FilterVideo->rajyasabha()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\FilterVideo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 19:52:00 --> Undefined variable $members
+in APPPATH\Views\Common\search.php on line 40.
+ 1 APPPATH\Views\Common\search.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $members', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Common/search', [], true)
+ 5 APPPATH\Controllers\Pages\FilterVideo.php(16): view('Common/search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages\FilterVideo->loksabha()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\FilterVideo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 19:52:23 --> Undefined variable $members
+in APPPATH\Views\Common\search.php on line 40.
+ 1 APPPATH\Views\Common\search.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $members', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Common/search', [], true)
+ 5 APPPATH\Controllers\Pages\FilterVideo.php(27): view('Common/search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages\FilterVideo->rajyasabha()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\FilterVideo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 19:52:32 --> Undefined variable $members
+in APPPATH\Views\Common\search.php on line 40.
+ 1 APPPATH\Views\Common\search.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $members', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Common/search', [], true)
+ 5 APPPATH\Controllers\Pages\FilterVideo.php(27): view('Common/search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages\FilterVideo->rajyasabha()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\FilterVideo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 19:52:33 --> Undefined variable $members
+in APPPATH\Views\Common\search.php on line 40.
+ 1 APPPATH\Views\Common\search.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $members', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Common/search', [], true)
+ 5 APPPATH\Controllers\Pages\FilterVideo.php(16): view('Common/search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages\FilterVideo->loksabha()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\FilterVideo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 19:55:13 --> Undefined variable $members
+in APPPATH\Views\Common\search.php on line 40.
+ 1 APPPATH\Views\Common\search.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $members', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Common\\search.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Common/search', [], true)
+ 5 APPPATH\Controllers\Pages\FilterVideo.php(16): view('Common/search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages\FilterVideo->loksabha()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\FilterVideo))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

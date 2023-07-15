@@ -1,0 +1,11 @@
+node_modules/
+tailwind.config.js
+package.json
+package-lock.json
+.vscode
+
+public/data.sql
+public/dist/videos/032d47dd98.mp4
+public/dist/videos/e272024dcb.mp4
+public/dist/videos/temp/032d47dd98.mp4
+public/dist/videos/temp/e272024dcb.mp4

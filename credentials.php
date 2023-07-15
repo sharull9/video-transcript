@@ -1,0 +1,23 @@
+Subscription Id
+babfd802-2618-4a42-acdb-99ba24a01416
+
+Account Id
+6ed32686-5190-472a-992b-34e9430294d1
+Location
+Trial
+
+
+https://learn.microsoft.com/en-us/azure/azure-video-indexer/video-indexer-use-apis
+
+
+
+var uploadRequestResult = client.PostAsync($"{apiUrl}/{location}/Accounts/{accountId}/Videos?accessToken={accountAccessToken}&name=some_name&description=some_description&privacy=private&partition=some_partition&videoUrl={videoUrl}", content).Result;
+
+
+client.GetAsync($"{apiUrl}/{location}/Accounts/{accountId}/Videos/Search?accessToken={accountAccessToken}&id={videoId}").Result;
+
+https://api.videoindexer.ai/Trial/Accounts/6ed32686-5190-472a-992b-34e9430294d1/Videos/Search?accessToken=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJWZXJzaW9uIjoiMi4wLjAuMCIsIktleVZlcnNpb24iOiIxNGU0M2M5NDFlOWI0OTg1OWU0NDkzNDFhZjgxZjNiNiIsIkFjY291bnRJZCI6IjZlZDMyNjg2LTUxOTAtNDcyYS05OTJiLTM0ZTk0MzAyOTRkMSIsIkFjY291bnRUeXBlIjoiVHJpYWwiLCJQZXJtaXNzaW9uIjoiUmVhZGVyIiwiRXh0ZXJuYWxVc2VySWQiOiI0Yzk2M2JkZDdlMjNhMmIxIiwiVXNlclR5cGUiOiJNaWNyb3NvZnQiLCJJc3N1ZXJMb2NhdGlvbiI6IlRyaWFsIiwibmJmIjoxNjg5MDE2MTg5LCJleHAiOjE2ODkwMjAwODksImlzcyI6Imh0dHBzOi8vYXBpLnZpZGVvaW5kZXhlci5haS8iLCJhdWQiOiJodHRwczovL2FwaS52aWRlb2luZGV4ZXIuYWkvIn0.oXQqlnp7BKHBu2tBrUuVFm97epKfg6q7KXh_8HYZYYUybbVSq3uD8EpFS_BIbVt8W1bmp7BWyl2FbUWRTq-V1HTE3GMPiu60lWR4TI3KI-SJtMp-80BvGIw16pdta356W-smJm0A3URYgkLlnTLuGnAZvb_jt4akGMj09Q7ZMIXhxzcMDMDs1ESvCJr0FG9JagKtnZ1Jt59XgAkBuptHCW9V0hB88DimNgqYcHXfHnYsMaB3rmQt8TMdzWBWTLG4627M939n2gbV6ReMIpNb3ls_k87IPWZpixRQrOf1kV2sN5fDr_ASvHZj7bM0vImV9lHXv0ghOZhq1MR6MFwOdQ
+
+
+
+https://api.videoindexer.ai/{location}/Accounts/{accountId}/Videos/Search?sourceLanguage&hasSourceVideoFile&sourceVideoId&state&privacy&id&partition&externalId&owner&face&animatedcharacter&query&textScope&language&createdAfter&createdBefore&pageSize&skip&accessToken

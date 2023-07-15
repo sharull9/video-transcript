@@ -1,0 +1,64 @@
+CRITICAL - 2023-07-11 06:41:51 --> Array to string conversion
+in APPPATH\Views\Categories\ministries.php on line 14.
+ 1 APPPATH\Views\Categories\ministries.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Categories\\ministries.php', 14)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Categories\\ministries.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Categories/ministries', [], true)
+ 5 APPPATH\Controllers\Pages\Ministries.php(15): view('Categories/ministries', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages\Ministries->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\Ministries))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 06:58:37 --> Undefined variable $members
+in APPPATH\Views\setting.php on line 30.
+ 1 APPPATH\Views\setting.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $members', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\setting.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Controllers\Setting.php(12): view('setting')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 06:58:39 --> Undefined variable $members
+in APPPATH\Views\setting.php on line 30.
+ 1 APPPATH\Views\setting.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $members', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\setting.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\setting.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('setting', [], true)
+ 5 APPPATH\Controllers\Setting.php(12): view('setting')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Setting->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 07:10:09 --> Undefined variable $parties
+in APPPATH\Views\Categories\parties.php on line 6.
+ 1 APPPATH\Views\Categories\parties.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $parties', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Categories\\parties.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Views\\Categories\\parties.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Categories/parties', [], true)
+ 5 APPPATH\Controllers\Pages\Parties.php(15): view('Categories/parties', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages\Parties->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\Parties))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:22:45 --> Undefined array key "video-upload"
+in APPPATH\Controllers\UploadVideo.php on line 15.
+ 1 APPPATH\Controllers\UploadVideo.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video-upload"', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Controllers\\UploadVideo.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UploadVideo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadVideo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 12:22:50 --> Undefined array key "video-upload"
+in APPPATH\Controllers\UploadVideo.php on line 15.
+ 1 APPPATH\Controllers\UploadVideo.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "video-upload"', 'C:\\xampp\\htdocs\\websites\\parliamentdemo.amibba.com\\app\\Controllers\\UploadVideo.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UploadVideo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UploadVideo))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-11 19:05:22 --> Call to undefined method App\Controllers\ServersideTest::getVideoList()
+in APPPATH\Controllers\ServersideTest.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\ServersideTest->test('video-list')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServersideTest))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
